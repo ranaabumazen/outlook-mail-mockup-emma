@@ -1,0 +1,9 @@
+.content-container{
+    border-radius: 1px;
+    border: 1px solid rgba(243,242,241, 1);
+    opacity: 1;
+    background-color: rgba(255,255,255, 1);
+    width: 522px;
+    height: 518px;
+    margin-left: 8px;
+}
