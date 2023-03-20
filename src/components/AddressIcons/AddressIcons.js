@@ -1,15 +1,13 @@
-import "./AddressIcons.css";
-import img1 from "../../images/Icon/UI/restart.png";
-import img2 from "../../images/Icon/UI/restartCopy.png";
-import img3 from "../../images/CombinedShape.png";
-import img4 from "../../images/Icon-More.png";
-export default function AddressIcons(){
+// import "./AddressIcons.css";
+import style from "./AddressIcons.module.css";
+// import style from  "./AddressIcons.css";
+export default function AddressIcons(props){
     return(
-            <ul className="address-icons">
-                <li><img src={img1}/></li>
-                <li><img src={img2}/></li>
-                <li><img src={img3}/></li>
-                <li><img src={img4}/></li>
+            <ul className={style.addressIcons}>
+                <li><img src={`./images/${props.restart}`}/></li>
+                <li><img src={`./images/${props.restartCopy}`}/></li>
+                <li><img src={`./images/${props.combined}`}/></li>
+                <li><img src={`./images/${props.more}`}/></li>
             </ul>
     );
 }

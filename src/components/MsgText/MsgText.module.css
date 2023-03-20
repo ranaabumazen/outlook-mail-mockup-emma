@@ -2,7 +2,7 @@
     src:url(../../fonts/SegoeUI/Segoe\ UI.ttf);
     font-family:SegoeUI;
     }
-.MsgText-container p{
+.MsgTextContainer p{
     opacity: 1;
     color: rgba(96,94,92,1);
     font-family: SegoeUI;
@@ -12,13 +12,13 @@
     letter-spacing: 0px;
     text-align: left;
 }
-.MsgText-container p:first-child{
+.MsgTextContainer p:first-child{
     width: 43px;
     height: 17px;
     margin-bottom: 22px;
     margin-left: 67px;
 }
-.MsgText-container p:last-child{
+.MsgTextContainer p:last-child{
     width: 380px;
     height: 95px;
     margin-left: 80px;

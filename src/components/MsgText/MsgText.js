@@ -1,9 +1,10 @@
-import './MsgText.css';
-export default function MsgText(){
+// import './MsgText.css';
+import style from "./MsgText.module.css";
+export default function MsgText(props){
     return(
-        <div className="MsgText-container">
-        <p>Jeremy,</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        <div className={style.MsgTextContainer}>
+        <p>{props.msgHeader}</p>
+        <p>{props.msgBody}</p>
     </div>
     );
 

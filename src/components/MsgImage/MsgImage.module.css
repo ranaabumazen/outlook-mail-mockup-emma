@@ -1,11 +1,11 @@
-.MsgImage-container{
+.MsgImageContainer{
     width: fit-content;
     height:185px;
     margin-top: 25px;
     margin-left: 64px;
     margin-bottom: 27px;
 }
-.MsgImage-container img{
+.MsgImageContainer img{
     width:429px; 
     height:185px;
 }

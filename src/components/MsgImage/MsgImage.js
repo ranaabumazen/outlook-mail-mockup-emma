@@ -1,9 +1,9 @@
-import './MsgImage.css';
-import MsgImg from '../../images/ImgHi.png';
-export default function MsgImage(){
+// import './MsgImage.css';
+import style from "./MsgImage.module.css";
+export default function MsgImage(props){
     return(
-        <div className="MsgImage-container">
-            <img src={MsgImg}/>
+        <div className={style.MsgImageContainer}>
+            <img src={`./images/${props.msgImage}`}/>
         </div>
     );
 }

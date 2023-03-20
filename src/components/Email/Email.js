@@ -1,6 +1,7 @@
-import './Email.css';
-export default function Email(){
+// import './Email.css';
+import style from "./Email.module.css";
+export default function Email(props){
     return(
-        <h3>&lt;no_reply@loremipsum.com&gt;</h3>
+        <h3>{props.email}</h3>
     );
 }

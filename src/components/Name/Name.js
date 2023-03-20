@@ -1,6 +1,7 @@
-import './Name.css'
-export default function Name(){
+// import './Name.css'
+import style from "./Name.module.css";
+export default function Name(props){
     return(
-        <h3>Lorem Ipsum</h3>
+        <h3>{props.name}</h3>
     );
 }

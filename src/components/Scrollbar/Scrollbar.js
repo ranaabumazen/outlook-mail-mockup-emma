@@ -1,7 +1,8 @@
-import './Scrollbar.css';
+// import './Scrollbar.css';
+import style from "./Scrollbar.module.css";
 export default function Scrollbar(){
     return(
-        <div className="scrollbar"> 
+        <div className={style.scrollbar}> 
         </div>
     );
 }
